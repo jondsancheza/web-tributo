@@ -1,0 +1,38 @@
+.hero{
+    background-color: var(--negroSecundario);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navPagina{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: 12%;
+    margin: 3px 30% 3px 5%;
+}
+
+.imgLogo{
+    width: 100%;
+}
+
+.navEnlaces{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navEnlaces>a{
+    text-decoration: none;
+    color: var(--blancoPrimario);
+}
+
+.navEnlaces>a:hover{
+    color: var(--rojo);
+    font-size: larger;
+}

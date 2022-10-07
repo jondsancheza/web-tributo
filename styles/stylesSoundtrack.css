@@ -1,0 +1,88 @@
+
+.seccionSoundtrack{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem ;
+}
+
+.imagenSoundtrack{
+    width: 45%;
+    position: relative;
+}
+
+.imgSoundtrack{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.decSupImagen{
+    width: 50%;
+    height: 50%;
+    background: var(--rojo);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    
+}
+
+.decInfImagen{
+    width: 50%;
+    height: 50%;
+    background: var(--rojo);
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    z-index: -1;
+}
+
+.secSoundtrack{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.openEnding{
+    width: 100%;
+    margin: 2rem  0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.open{
+    color: var(--blancoPrimario);
+    font-size: 1.1rem;
+}
+
+.canciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.icono{
+    color: var(--rojo);
+    font-size: 1.2rem;
+}
+
+.canciones>div{
+    color: var(--blancoPrimario);
+    font-size: 1.2rem;
+}
+
+.botonSoundtrack{
+    color: var(--blancoPrimario);
+    background-color: var(--rojo);
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.divisionSoundtrack{
+    width: 80%;
+    border: 1px solid var(--blancoPrimario);
+}

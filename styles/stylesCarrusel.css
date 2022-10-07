@@ -1,0 +1,59 @@
+
+.contenedorCarrusel{
+    height: 91vh;
+    overflow: hidden;
+    
+}
+
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+
+.verGaleria{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.textoGaleria{
+    background-color: var(--rojo);
+    font-size: 1.5rem;
+    width: 15%;
+    padding: 0.5rem 1.5rem;
+    color: var(--blancoPrimario);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.enlacesGaleria{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.cuadrado{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--blancoSecundario);
+    border-radius: 5px;
+}
+
+.cuadradoActivo{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--rojo);
+    border-radius: 5px;
+}
+
+.tarjetaCarrusel>img{
+    width: 100%;
+}

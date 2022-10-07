@@ -1,0 +1,37 @@
+.seccionPersonajes{
+    margin: 2rem 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.seccionPersonajes>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.tarjetaPersonaje{
+    background-color: var(--negroSecundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetaPersonaje>h2{
+    color: var(--rojo);
+    padding: 1rem;
+}
+
+.tarjetaPersonaje>.imgSimbolo{
+    width: 35%;
+    height: auto;
+}
+
+.botonPersonajes{
+    color: var(--blancoPrimario);
+    background-color: var(--rojo);
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 1.2rem 0;
+}
